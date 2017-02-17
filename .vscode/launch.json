@@ -19,7 +19,7 @@
             "cwd": "${workspaceRoot}",
             "sourceMaps": true,
             "outFiles": [
-                "${workspaceRoot}\\.compiled"
+                "${workspaceRoot}/.compiled/**/*.js"
             ],
             "preLaunchTask": "compile:debug"
         },
